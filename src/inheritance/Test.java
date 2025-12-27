@@ -6,4 +6,9 @@ public class Test {
         tesla.start();
         System.out.println(tesla.brand);  // Accessing inherited member
     }
+
+    /* TODO What you're learning:
+        Constructor chaining with super()
+        Overriding methods at multiple levels
+        Accessing inherited members*/
 }
