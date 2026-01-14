@@ -101,4 +101,7 @@ Explanation: "amanaplanacanalpanama" is a palindrome.*/
 
     }
 
+
+    //  TODO : squares of sorted array
+
 }
