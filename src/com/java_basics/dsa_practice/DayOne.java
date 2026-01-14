@@ -80,4 +80,25 @@ Explanation: "amanaplanacanalpanama" is a palindrome.*/
         return true;
     }
 
+    public int numJewelsInStones(String jewels, String stones) {
+        Set<Character> jewelSet = new HashSet<>();
+        char[] jewelArray = jewels.toCharArray();
+        for(char ch : jewelArray){
+            jewelSet.add(ch);
+        }
+
+        // now fetching the chars in the stones whether they exist in the set or not if  exist then increase the count.
+
+        int count =0;
+
+        char[] stoneArray = stones.toCharArray();
+        for(char c : stoneArray){
+            if(jewelSet.contains(c))count++;
+        }
+
+        return count;
+
+
+    }
+
 }
